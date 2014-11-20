@@ -1,0 +1,22 @@
+{
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "registry1.ut1.omniture.com:5000/amuraru/test:1.3"
+    },
+    "volumes" : []
+  },
+  "ports": [
+    0,
+    0,
+    0
+  ],
+  "id": "dynamic-ports",
+  "instances": "1",
+  "constraints": [["hostname", "UNIQUE"]],
+  "cpus": "2",
+  "mem": "512",
+  "uris": []
+}
+
+
